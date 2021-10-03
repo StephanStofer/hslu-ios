@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     let deviceHeigth = 896 // iphone11
     let modulus = 3
     let data = DataProvider.sharedInstance
-    let usePersonData = false
+    let usePersonData = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
